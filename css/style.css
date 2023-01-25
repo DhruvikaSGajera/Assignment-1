@@ -1,0 +1,103 @@
+/* Style of login page */
+
+body{
+    background: white;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+.img-cont{
+    width: 50%;
+}
+
+.img-cont img{
+    margin-top: 72px;
+    width: 80%;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+    border-radius: 50%;
+    
+  }
+
+.content-cont {
+    width: 45%;
+    margin-top: 100px;
+  }
+
+.content-cont img{
+    display: flex;
+    align-items: center;
+    height: 58px;
+    width: 272px;
+    /* width: 3rem; */
+}
+
+.stmt{
+    font: normal normal 300 40px/47px Roboto;
+    margin-top: 20px;
+    color: #3E3E3E;
+
+}
+
+.bold{
+    color: #C8242F;
+}
+
+.form{
+    color: #ADADAD;
+    text-align: left;
+    font: normal normal 15px/20px Roboto;
+}
+
+.login-cont{
+    font: normal normal normal 25px/33px Roboto;
+    margin-bottom: 20px;
+    color: #3E3E3E;
+}
+.login-details{
+    padding: 15px 10px;
+    height: 45px;
+    width: 375px;
+    border-radius: 5px;
+    border: 1px solid #ADADAD;
+}
+
+.login-frgpswd{
+    display: flex;
+    justify-content:space-between;
+    width: 65%;
+}
+.login-btn{
+    background: #C8242F;
+    border: #C8242F;
+    font: normal normal medium 18px/24px Roboto;
+    border-radius: 23px;
+    width: 138px;
+    height: 45px;
+    margin-top: 0px;
+    color: #FFFFFF;
+}
+
+.register{
+    color: #C8242F;
+}
+
+/* Style of dashboard page*/
+
+.header{
+    position: fixed;
+    background: #FFFFFF;
+}
+
+.menu{
+    display: flex;
+}
