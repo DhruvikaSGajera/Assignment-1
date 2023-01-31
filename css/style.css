@@ -1,6 +1,7 @@
 /* Style of login page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
-body{
+#login-body{
     background: white;
     min-height: 100vh;
     justify-content: center;
@@ -63,6 +64,7 @@ body{
     margin-bottom: 20px;
     color: #3E3E3E;
 }
+
 .login-details{
     padding: 15px 10px;
     height: 45px;
@@ -91,13 +93,70 @@ body{
     color: #C8242F;
 }
 
-/* Style of dashboard page*/
+/* Media Query */
 
-.header{
-    position: fixed;
-    background: #FFFFFF;
-}
+ @media screen and (max-width: 850px) and (min-width:360px) 
+{
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        align-items: center;
+    }  
 
-.menu{
-    display: flex;
+    .img-cont
+    {
+        width: 85%;
+        /* height: 40%; */
+        text-align: center;
+    }
+
+    .img-cont img{
+        text-align: center;
+        margin: 0;
+    }
+
+    .content-cont
+    {
+        width: 85%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .content-cont img
+    {
+        margin-left: calc(50% - 115px);
+        margin-top: 2rem;
+        width: 15rem;
+        align-items: center;
+    }
+    .stmt
+    {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .login-cont
+    {
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .form
+    {
+        width: 95%;
+        margin: auto;
+    }
+
+    .login-details
+    {
+        width: 100%;
+    }
+
+    .login-frgpswd
+    {
+        width: 106%;
+        flex-wrap: wrap;
+    }
 }
